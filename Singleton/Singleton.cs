@@ -20,9 +20,14 @@ namespace Singleton
             }
         }
 
-        //public static Singleton GetSingleton()
-        //{
-        //    return _instance;
-        //}
+        /// <summary>
+        /// alternative
+        /// </summary>
+        /// <returns></returns>
+        public static Singleton GetInstance()
+        {
+            return _instance;
+        }
+
     }
 }
